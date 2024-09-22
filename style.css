@@ -1,0 +1,123 @@
+/* Cấu hình cơ bản cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Header */
+header {
+    background-color: #48b8a9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Phần Lợi Ích */
+#benefits {
+    padding: 20px;
+    margin: 20px;
+}
+
+.benefit-item {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.benefit-item:hover {
+    transform: scale(1.03);
+    background-color: #e0f7fa;
+}
+
+/* Tiêu đề của mỗi mục */
+.benefit-item h3 {
+    color: #48b8a9;
+    margin-bottom: 10px;
+}
+
+/* Phần ví dụ minh họa */
+.example {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #48b8a9;
+    border-radius: 8px;
+    background-color: #f0f8ff;
+}
+
+/* Ví dụ cho Linh Hoạt Bố Cục */
+.example .box {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    padding: 20px;
+    background-color: #3a857b;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.example .box:hover {
+    transform: translateY(-10px);
+}
+
+/* Ví dụ cho Nhất Quán Hình Thức */
+.consistent {
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #1b413b;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Ví dụ cho Dễ Bảo Trì */
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1b413b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #38a9b1;
+}
+
+/* Ví dụ cho Tái Sử Dụng */
+.reusable {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #3a857b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    background-color: #48b8a9;
+    color: white;
+    padding: 10px;
+}
